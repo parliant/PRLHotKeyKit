@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95EFE30B19F89DD300C65857 /* PRLHotKeyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 95EFE30A19F89DD300C65857 /* PRLHotKeyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95EFE31119F89DD300C65857 /* PRLHotKeyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EFE30519F89DD300C65857 /* PRLHotKeyKit.framework */; };
+		95EFE31819F89DD300C65857 /* PRLHotKeyKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EFE31719F89DD300C65857 /* PRLHotKeyKitTests.m */; };
+		95EFE32719F89DFD00C65857 /* PRLHotKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 95EFE32119F89DFD00C65857 /* PRLHotKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95EFE32819F89DFD00C65857 /* PRLHotKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EFE32219F89DFD00C65857 /* PRLHotKey.m */; };
+		95EFE32919F89DFD00C65857 /* PRLHotKeyFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 95EFE32319F89DFD00C65857 /* PRLHotKeyFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95EFE32A19F89DFD00C65857 /* PRLHotKeyFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EFE32419F89DFD00C65857 /* PRLHotKeyFieldCell.m */; };
+		95EFE32B19F89DFD00C65857 /* PRLHotKeyFieldEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 95EFE32519F89DFD00C65857 /* PRLHotKeyFieldEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95EFE32C19F89DFD00C65857 /* PRLHotKeyFieldEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EFE32619F89DFD00C65857 /* PRLHotKeyFieldEditor.m */; };
+		95EFE32D19F89E0C00C65857 /* PRLHotKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EFE32219F89DFD00C65857 /* PRLHotKey.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95EFE31219F89DD300C65857 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95EFE2FC19F89DD300C65857 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95EFE30419F89DD300C65857;
+			remoteInfo = PRLHotKeyKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95EFE30519F89DD300C65857 /* PRLHotKeyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PRLHotKeyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EFE30919F89DD300C65857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95EFE30A19F89DD300C65857 /* PRLHotKeyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRLHotKeyKit.h; sourceTree = "<group>"; };
+		95EFE31019F89DD300C65857 /* PRLHotKeyKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PRLHotKeyKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EFE31619F89DD300C65857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95EFE31719F89DD300C65857 /* PRLHotKeyKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRLHotKeyKitTests.m; sourceTree = "<group>"; };
+		95EFE32119F89DFD00C65857 /* PRLHotKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRLHotKey.h; sourceTree = "<group>"; };
+		95EFE32219F89DFD00C65857 /* PRLHotKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRLHotKey.m; sourceTree = "<group>"; };
+		95EFE32319F89DFD00C65857 /* PRLHotKeyFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRLHotKeyFieldCell.h; sourceTree = "<group>"; };
+		95EFE32419F89DFD00C65857 /* PRLHotKeyFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRLHotKeyFieldCell.m; sourceTree = "<group>"; };
+		95EFE32519F89DFD00C65857 /* PRLHotKeyFieldEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRLHotKeyFieldEditor.h; sourceTree = "<group>"; };
+		95EFE32619F89DFD00C65857 /* PRLHotKeyFieldEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRLHotKeyFieldEditor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95EFE30119F89DD300C65857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EFE30D19F89DD300C65857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EFE31119F89DD300C65857 /* PRLHotKeyKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95EFE2FB19F89DD300C65857 = {
+			isa = PBXGroup;
+			children = (
+				95EFE30719F89DD300C65857 /* PRLHotKeyKit */,
+				95EFE31419F89DD300C65857 /* PRLHotKeyKitTests */,
+				95EFE30619F89DD300C65857 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95EFE30619F89DD300C65857 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95EFE30519F89DD300C65857 /* PRLHotKeyKit.framework */,
+				95EFE31019F89DD300C65857 /* PRLHotKeyKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95EFE30719F89DD300C65857 /* PRLHotKeyKit */ = {
+			isa = PBXGroup;
+			children = (
+				95EFE32119F89DFD00C65857 /* PRLHotKey.h */,
+				95EFE32219F89DFD00C65857 /* PRLHotKey.m */,
+				95EFE32319F89DFD00C65857 /* PRLHotKeyFieldCell.h */,
+				95EFE32419F89DFD00C65857 /* PRLHotKeyFieldCell.m */,
+				95EFE32519F89DFD00C65857 /* PRLHotKeyFieldEditor.h */,
+				95EFE32619F89DFD00C65857 /* PRLHotKeyFieldEditor.m */,
+				95EFE30A19F89DD300C65857 /* PRLHotKeyKit.h */,
+				95EFE30819F89DD300C65857 /* Supporting Files */,
+			);
+			path = PRLHotKeyKit;
+			sourceTree = "<group>";
+		};
+		95EFE30819F89DD300C65857 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95EFE30919F89DD300C65857 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95EFE31419F89DD300C65857 /* PRLHotKeyKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				95EFE31719F89DD300C65857 /* PRLHotKeyKitTests.m */,
+				95EFE31519F89DD300C65857 /* Supporting Files */,
+			);
+			path = PRLHotKeyKitTests;
+			sourceTree = "<group>";
+		};
+		95EFE31519F89DD300C65857 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95EFE31619F89DD300C65857 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		95EFE30219F89DD300C65857 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EFE30B19F89DD300C65857 /* PRLHotKeyKit.h in Headers */,
+				95EFE32719F89DFD00C65857 /* PRLHotKey.h in Headers */,
+				95EFE32919F89DFD00C65857 /* PRLHotKeyFieldCell.h in Headers */,
+				95EFE32B19F89DFD00C65857 /* PRLHotKeyFieldEditor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		95EFE30419F89DD300C65857 /* PRLHotKeyKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95EFE31B19F89DD300C65857 /* Build configuration list for PBXNativeTarget "PRLHotKeyKit" */;
+			buildPhases = (
+				95EFE30019F89DD300C65857 /* Sources */,
+				95EFE30119F89DD300C65857 /* Frameworks */,
+				95EFE30219F89DD300C65857 /* Headers */,
+				95EFE30319F89DD300C65857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PRLHotKeyKit;
+			productName = PRLHotKeyKit;
+			productReference = 95EFE30519F89DD300C65857 /* PRLHotKeyKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95EFE30F19F89DD300C65857 /* PRLHotKeyKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95EFE31E19F89DD300C65857 /* Build configuration list for PBXNativeTarget "PRLHotKeyKitTests" */;
+			buildPhases = (
+				95EFE30C19F89DD300C65857 /* Sources */,
+				95EFE30D19F89DD300C65857 /* Frameworks */,
+				95EFE30E19F89DD300C65857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95EFE31319F89DD300C65857 /* PBXTargetDependency */,
+			);
+			name = PRLHotKeyKitTests;
+			productName = PRLHotKeyKitTests;
+			productReference = 95EFE31019F89DD300C65857 /* PRLHotKeyKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95EFE2FC19F89DD300C65857 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Parliant;
+				TargetAttributes = {
+					95EFE30419F89DD300C65857 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					95EFE30F19F89DD300C65857 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 95EFE2FF19F89DD300C65857 /* Build configuration list for PBXProject "PRLHotKeyKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95EFE2FB19F89DD300C65857;
+			productRefGroup = 95EFE30619F89DD300C65857 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95EFE30419F89DD300C65857 /* PRLHotKeyKit */,
+				95EFE30F19F89DD300C65857 /* PRLHotKeyKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95EFE30319F89DD300C65857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EFE30E19F89DD300C65857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95EFE30019F89DD300C65857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EFE32819F89DFD00C65857 /* PRLHotKey.m in Sources */,
+				95EFE32C19F89DFD00C65857 /* PRLHotKeyFieldEditor.m in Sources */,
+				95EFE32A19F89DFD00C65857 /* PRLHotKeyFieldCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EFE30C19F89DD300C65857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EFE32D19F89E0C00C65857 /* PRLHotKey.m in Sources */,
+				95EFE31819F89DD300C65857 /* PRLHotKeyKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95EFE31319F89DD300C65857 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95EFE30419F89DD300C65857 /* PRLHotKeyKit */;
+			targetProxy = 95EFE31219F89DD300C65857 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		95EFE31919F89DD300C65857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		95EFE31A19F89DD300C65857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95EFE31C19F89DD300C65857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = PRLHotKeyKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		95EFE31D19F89DD300C65857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEPLOYMENT_LOCATION = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = PRLHotKeyKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		95EFE31F19F89DD300C65857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PRLHotKeyKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95EFE32019F89DD300C65857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PRLHotKeyKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95EFE2FF19F89DD300C65857 /* Build configuration list for PBXProject "PRLHotKeyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EFE31919F89DD300C65857 /* Debug */,
+				95EFE31A19F89DD300C65857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95EFE31B19F89DD300C65857 /* Build configuration list for PBXNativeTarget "PRLHotKeyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EFE31C19F89DD300C65857 /* Debug */,
+				95EFE31D19F89DD300C65857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95EFE31E19F89DD300C65857 /* Build configuration list for PBXNativeTarget "PRLHotKeyKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EFE31F19F89DD300C65857 /* Debug */,
+				95EFE32019F89DD300C65857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95EFE2FC19F89DD300C65857 /* Project object */;
+}
